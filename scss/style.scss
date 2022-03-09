@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    
+    .bg-img {
+        /* The image used */
+        background-image: url("/img/tommy.png");
+        margin: -1.35%;
+        height: 40em;
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        /* Needed to position the navbar */
+        position: relative;
+    }
+    
+    /* Position the navbar container inside the image */
+    .container {
+        position: absolute;
+        margin: 2%;
+        width: auto;
+    }
+    
+    /* The navbar */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(29, 28, 28, 0.5);
+        color: white;
+        text-align: center;
+
+        h1 {
+            padding-top: 2%;
+        }
+    }
+  
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2%;
+}
+
+.contract-info {
+   display: flex;
+   flex-direction: row;
+
+
+  
+}
